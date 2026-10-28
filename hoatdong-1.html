@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực Hành Vòng Lặp For</title>
+</head>
+<body>
+
+    <h2>Bài tập vòng lặp For</h2>
+    <p>Hãy nhấn phím <b>F12</b> trên bàn phím, sau đó chọn tab <b>Console</b> để xem kết quả chạy.</p>
+
+    <script>
+        // 1. In ra dãy số từ 1 đến 100
+        console.log("=== DÃY SỐ TỪ 1 ĐẾN 100 ===");
+        for (let i = 1; i <= 100; i++) {
+            console.log(i);
+        }
+
+        // 2. Tùy chỉnh chỉ in ra các số chẵn
+        console.log("=== CÁC SỐ CHẴN TỪ 1 ĐẾN 100 ===");
+        for (let i = 1; i <= 100; i++) {
+            // Nếu i chia hết cho 2 (dư 0) thì in ra
+            if (i % 2 === 0) {
+                console.log(i);
+            }
+        }
+    </script>
+
+</body>
+</html>
